@@ -1,0 +1,12 @@
+package cap01;
+
+import java.util.Scanner;
+
+public class HolaMundoNombre {
+	public static void main(String[] args) {
+		Scanner dataForConsole = new Scanner(System.in);
+		System.out.println("Ingrese un valor:");
+		String newData = dataForConsole.nextLine();
+		System.out.println("Hola mundo, " + newData);
+	}
+}

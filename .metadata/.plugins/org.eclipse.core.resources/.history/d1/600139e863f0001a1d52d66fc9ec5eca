@@ -1,0 +1,10 @@
+package cap01;
+
+public class ParoImpar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
