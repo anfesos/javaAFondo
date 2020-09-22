@@ -1,3 +1,8 @@
+.metadata/.log
+.metadata/.plugins/*
+.metadata/*
+.recommenders/*
+RemoteSystemsTempFiles/*
 /HolaMundo/.settings/*
 /HolaMundo/bin/*
 /HolaMundo/.classpath
