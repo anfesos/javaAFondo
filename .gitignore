@@ -1,9 +1,4 @@
-#No se sigue carpeta
-.metadata
-.recommenders
-RemoteSystemsTempFiles
-
-#No se sigue información dentro de carpetas
-.metadata/*
-.recommenders/*
-RemoteSystemsTempFiles/*
+/HolaMundo/.settings/*
+/HolaMundo/bin/*
+/HolaMundo/.classpath
+/HolaMundo/.project
