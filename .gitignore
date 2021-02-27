@@ -5,3 +5,6 @@ RemoteSystemsTempFiles/
 /HolaMundo/bin/
 /HolaMundo/.classpath
 /HolaMundo/.project
+.idea/
+out/
+javaAFondo.iml

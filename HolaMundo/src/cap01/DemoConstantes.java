@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DemoConstantes {
 	
-	// Definición de constantes
+	// Definiciï¿½n de constantes
 	public static final int LUNES = 1;
 	public static final int MARTES = 2;
 	public static final int MIERCOLES = 3;
@@ -14,7 +14,7 @@ public class DemoConstantes {
 	public static final int DOMINGO = 7;
 	
 	public static void main(String[] args) {
-		System.out.println("Ingrese un día de la semana(número): ");
+		System.out.println("Ingrese un dï¿½a de la semana(nï¿½mero): ");
 		Scanner scanner = new Scanner(System.in);
 		int valor = scanner.nextInt();
 		String dia = "";
@@ -42,7 +42,7 @@ public class DemoConstantes {
 			dia = "Domingo";
 			break;
 		default:
-			System.out.println("Día incorrecto... Ingrese un valor entre 1 y 7.");
+			System.out.println("Dï¿½a incorrecto... Ingrese un valor entre 1 y 7.");
 			break;
 		}
 		
