@@ -1,10 +1,10 @@
-package cap01;
+package co.com.aprendiendojava.javaafondo.cap01;;
 
 import java.util.Scanner;
 
 public class DemoConstantes {
 	
-	// Definici�n de constantes
+	// Definición de constantes
 	public static final int LUNES = 1;
 	public static final int MARTES = 2;
 	public static final int MIERCOLES = 3;
@@ -14,7 +14,7 @@ public class DemoConstantes {
 	public static final int DOMINGO = 7;
 	
 	public static void main(String[] args) {
-		System.out.println("Ingrese un d�a de la semana(n�mero): ");
+		System.out.println("Ingrese un día de la semana(número): ");
 		Scanner scanner = new Scanner(System.in);
 		int valor = scanner.nextInt();
 		String dia = "";
@@ -42,7 +42,7 @@ public class DemoConstantes {
 			dia = "Domingo";
 			break;
 		default:
-			System.out.println("D�a incorrecto... Ingrese un valor entre 1 y 7.");
+			System.out.println("Día incorrecto... Ingrese un valor entre 1 y 7.");
 			break;
 		}
 		

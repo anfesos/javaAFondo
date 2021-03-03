@@ -1,4 +1,4 @@
-package cap01;
+package co.com.aprendiendojava.javaafondo.cap01;;
 
 import java.util.Scanner;
 

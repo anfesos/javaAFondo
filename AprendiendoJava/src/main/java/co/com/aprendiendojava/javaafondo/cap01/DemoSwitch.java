@@ -1,4 +1,4 @@
-package cap01;
+package co.com.aprendiendojava.javaafondo.cap01;;
 
 import java.util.Scanner;
 
@@ -40,7 +40,7 @@ public class DemoSwitch {
 			
 		}
 		
-		System.out.println("El día elegido es: " + dia);
+		System.out.println("El dÃ­a elegido es: " + dia);
 	}
 
 }

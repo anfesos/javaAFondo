@@ -1,4 +1,4 @@
-package cap01;
+package co.com.aprendiendojava.javaafondo.cap01;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class PrimerosNumeros2 {
 		int i = 1;
 		
 		do{
-			System.out.println("Valor iteración: " + i);
+			System.out.println("Valor iteraciÃ³n: " + i);
 			i++;
 		}
 		while(i<=valor);
