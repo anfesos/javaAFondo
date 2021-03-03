@@ -1,4 +1,4 @@
-package cap01;
+package co.com.aprendiendojava.javaafondo.cap01;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class PrimerosNumeros3 {
 		int valor = scanner.nextInt();
 		
 		for(int i= 1; i<= valor; i++){
-			System.out.println("Valor iteración: " + i);
+			System.out.println("Valor iteraciÃ³n: " + i);
 		}
 	}
 }
