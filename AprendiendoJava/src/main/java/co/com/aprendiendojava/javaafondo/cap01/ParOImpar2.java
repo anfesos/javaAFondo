@@ -2,7 +2,7 @@ package co.com.aprendiendojava.javaafondo.cap01;
 
 import java.util.Scanner;
 
-public class ParoImpar2 {
+public class ParOImpar2 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
