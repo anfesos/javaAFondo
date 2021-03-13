@@ -9,13 +9,18 @@ import java.util.Collection;
 
 public class Facade {
 
+    public Collection<EmpDTO> obtenerUltimosEmpleados (int n){
+        EmpDAO empDAO = (EmpDAO)UFactory.getInstacia("EMP");
+        return empDAO.buscarUltimosEmpleados(n);
+    }
+
     public Collection<DeptDTO> obtenerDepartamentos(){
-        DeptDAO deptDAO = new DeptDAO();
+        DeptDAO deptDAO = (DeptDAO) UFactory.getInstacia("DEPT");
         return deptDAO.buscarTodos();
     };
 
     public Collection<EmpDTO> obtenerEmpleados(int deptno){
-        EmpDAO empDAO = new EmpDAO();
+        EmpDAO empDAO = (EmpDAO) UFactory.getInstacia("EMP");
         return empDAO.buscarXDept(deptno);
     };
 }
