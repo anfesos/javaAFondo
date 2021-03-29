@@ -1,4 +1,4 @@
-package co.com.aprendiendojava.javaafondo.cap05;
+package co.com.aprendiendojava.javaafondo.cap05.mvc;
 
 import javax.swing.*;
 import javax.swing.event.ListDataListener;
